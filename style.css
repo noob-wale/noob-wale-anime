@@ -17,6 +17,12 @@ body {
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
+    background-color: #121212;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(214, 226, 43);
 }
 
 .messages {
@@ -24,6 +30,7 @@ body {
     /* width: 100vw;
     max-height: 100vh; */
     padding: 1rem .9rem;
+    color: white;
 }
 
 .bubble {
@@ -43,7 +50,7 @@ body {
 }
 
 .bubble.left {
-    background: rgba(206,206,206,0.50);
+    background: rgba(160, 37, 63, 0.5);
 }
 
 
