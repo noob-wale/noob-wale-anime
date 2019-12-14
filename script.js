@@ -1,10 +1,10 @@
 window.onload = function() {
 
     var messagesEl = document.querySelector('.messages');
-    var typingSpeed = 20;
+    var typingSpeed = 30;
     var loadingText = '<b>•</b><b>•</b><b>•</b>';
     var messageIndex = 0;
-  
+    
     var getCurrentTime = function() {
       var date = new Date();
       var hours =  date.getHours();
@@ -17,12 +17,14 @@ window.onload = function() {
   
     var messages = [
       'Hey there 👋',
-      'I\'m noob-Wale',
-      'I design and code things on the web',
-      'This is my test project trying to learn the use of anime-js',
-      'All thanks to <a href="https://twitter.com/juliangarnier">@juliangarnier</a>',
+      'I\'m the 🦸 Essay Hank 🦸',
+      'I\'m a freelance writer, tutor and a computer enthusiast',
+      'I write up articles, thesis, dissertations, essays and papers that help clients and students achieve their goals 🎉.',
+      'I have been in this industry for more than 6 years and I can tackle anything from article to technical papers 📜',
+      'I adapt my style to fit and suit every form job and work with some of the best writers to achieve the task.',
+      'If you\'re looking for a freelancer, lemme know through the <a href="#">contact form ✉️</a> and we can talk the steps',
       getCurrentTime(),
-      '👀 noob.'
+      '👀 hank. 👽'
     ]
   
     var getFontSize = function() {
