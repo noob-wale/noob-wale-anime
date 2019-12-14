@@ -10,18 +10,28 @@ body {
     font-family: 'Girassol', cursive;
     width: 100vw;
     min-height: 100vh;
-    background-color: #121212;
+    background-color: #0b0d13;
 }
 
 a {
     text-decoration: none;
+    padding: 10px;
     color: rgba(255, 255, 255, 0.7)
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0px 15px 0px;
+    border-top: .05rem solid #736c68;
 }
 
 .nav-bar {
     font-size: 20px;
-    background-image: linear-gradient(to right top, #051937, #3d2f5e, #7b437c, #bf568e, #ff6f91);
+    background-color: #09090a;
     padding-bottom: 10px;
+    box-shadow: 3px 1px 8px 2px #e2e2e3;
 }
 
 .main-bar {
@@ -44,6 +54,7 @@ a {
 
 .navbar-toogle {
     position: absolute;
+    padding: 10px;
     top: 10px;
     right: 20px;
     cursor: pointer;
@@ -82,7 +93,7 @@ a {
 }
 
 .bubble.left {
-    background: #FF6F91;
+    background: #736c68;
 }
 
 .bubble:after {
@@ -124,4 +135,15 @@ a {
 .bubble .loading b {
     display: inline-block;
     color: rgba(0, 0, 0, .5);
+}
+
+.main-footer {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.main-footer li {
+    flex-grow: 1;
+    margin: 0px 50px 0px 50px;
 }
