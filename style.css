@@ -140,10 +140,10 @@ footer {
 .main-footer {
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.main-footer li {
+/* .main-footer li {
     flex-grow: 1;
     margin: 0px 50px 0px 50px;
-}
+} */
